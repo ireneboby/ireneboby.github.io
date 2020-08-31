@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    line-height: 1.5em;
+}
+
+.hero {
+    height: 300px;
+    background-image: url("/images/headerimg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+[class*="col-"] {
+    width: 100%;
+    }
+
+[class*="col-2"] {
+    width: 33.33%;
+    }
+
+@media only screen and (min-width: 768px) {
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+  
+}
+
+body {
+    background-color: white;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    color: #626C6D;
+    overflow: scroll;
+    font-size: 100%;  
+    z-index: 5;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, Times, serif;
+}
+
+.nav{
+	background-color: #F7EDD9;
+	text-align : center;
+	padding : 0;
+    position: fixed;
+    z-index: 10;
+}
+
+.nav a{
+	display :inline-block;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    font-family: Georgia, Times, serif;
+	color : #387277;
+    text-decoration-line: none;
+}
+
+.nav a:hover{
+    color: #719EAA;
+}
+.nav a.active {
+    color: #1A293A;
+}
+
+#intro {
+    padding: 5% 10% 5% 10%;
+    margin: 0%;
+    width: 100%; 
+    text-align:;
+}
+
+#intro h1 {
+    float: left;
+    width: 30%;
+    padding-right:5%;
+    margin-right: 5%;
+}
+#traits{
+    background-color: #719EAA;
+    padding: 3% 5% 3% 5%;
+    margin: 0%;
+    overflow: auto;
+    width: 100%;
+    color: #F3F5F6;
+    text-align: center;
+    }
+
+#traits .col-4 p {
+    padding-left: 5%;
+    padding-left: 5%;
+}
+
+#traits .col-4 h2{
+    text-transform: lowercase;
+}
+
+#lang{
+    background-color: #F0F2EB;
+    text-align: center;
+    align-content: center;
+    padding: 0%;
+    font-size: 
+}
+
+.header {
+    background-color: #F0F2EB;
+    height: 10%;
+    text-align:;
+    padding: 10% 5% 1% 5%;
+    
+}
+
+.ss, .desc {
+    height: 300px;
+}
+
+.ss {
+    background-color: #1A293A;
+    padding:5%;
+}
+
+.desc {
+    padding: 5%;
+}
+
+.desc a {
+    text-decoration-line: none;
+    color: #626C6D;
+}
+
+.desc a:hover {
+    color: #9EBECB;
+}
+
+
