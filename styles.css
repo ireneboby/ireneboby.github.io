@@ -126,8 +126,8 @@ h1, h2, h3 {
     
 }
 
-.project {
-    padding: 5% 10% 5% 10%;
+div.project {
+    padding: 5% 10% 0% 10%;
     margin: 0%;
     width: 100%; 
 }
@@ -160,6 +160,3 @@ h1, h2, h3 {
 .desc a:hover {
     color: #9EBECB;
 }
-
-
-
