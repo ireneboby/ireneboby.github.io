@@ -72,10 +72,10 @@ h1, h2, h3 {
     text-decoration-line: none;
 }
 
-.nav a:hover{
+.nav a:hover, a:hover{
     color: #719EAA;
 }
-.nav a.active {
+.nav a.active, a.active {
     color: #1A293A;
 }
 
@@ -83,7 +83,6 @@ h1, h2, h3 {
     padding: 5% 10% 5% 10%;
     margin: 0%;
     width: 100%; 
-    text-align:;
 }
 
 #intro h1 {
@@ -127,6 +126,19 @@ h1, h2, h3 {
     
 }
 
+.project {
+    padding: 5% 10% 5% 10%;
+    margin: 0%;
+    width: 100%; 
+}
+
+.project h2 , a {
+    font-weight: bold;
+    font-family: Georgia, Times, serif;
+    color : #387277;
+    text-decoration-line: none;
+}
+
 .ss, .desc {
     height: 300px;
 }
@@ -148,5 +160,6 @@ h1, h2, h3 {
 .desc a:hover {
     color: #9EBECB;
 }
+
 
 
